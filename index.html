@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learning js</title>
+</head>
+<body>
+    <a href="javascript:void(0);" onclick="ToggleClass(this);">Toggle class</a>
+
+<script type="text/javascript">
+function ToggleClass(sender)
+{
+	
+	if($(sender).hasClass("bold"))
+		$(sender).removeClass("bold");
+	else
+		$(sender).addClass("bold");
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "This is my practice page for javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/Sumshi/javascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sumshi/javascript/issues"
+  },
+  "homepage": "https://github.com/Sumshi/javascript#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
