@@ -6,21 +6,17 @@
     <title>jquery starter</title>
 </head>
 <body>
-    <script src="script.js"></script>
     <!--adding jquery cdn alx provided one-->
     <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
 
     <!--the above did not work, trying google cdn-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>  
+    <script src="script.js"></script>
+    <!-- NOTE: External script must come after jquery script-->
+
+
+
     <!-- <script type="text/javascript">
-        $(document).ready(function () {
-            $("p.second").click(function () {
-                $(this).hide();
-            });
-        });
-    </script> -->
-        <script type="text/javascript">
         $(document).ready(function () {
             $("p.second").click(function () {
                 $(this).hide();
@@ -30,7 +26,7 @@
                 $("p.first").css("color", "red");
             });
         });
-    </script>
+    </script> -->
     <p class="first">p1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod vero illo expedita illum laborum ea tenetur qui vel quasi id porro, quibusdam dolorum, sit, eos modi laudantium culpa necessitatibus totam.</p>
     <p class="second">p2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod vero illo expedita illum laborum ea tenetur qui vel quasi id porro, quibusdam dolorum, sit, eos modi laudantium culpa necessitatibus totam.</p>
     <p class="third">p3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod vero illo expedita illum laborum ea tenetur qui vel quasi id porro, quibusdam dolorum, sit, eos modi laudantium culpa necessitatibus totam.</p>
