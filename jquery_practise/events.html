@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jquery starter</title>
+</head>
+<body>
+    <!--adding jquery cdn alx provided one-->
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+
+    <!--the above did not work, trying google cdn-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>  
+    <script src="events.js"></script>
+    <!-- NOTE: External script must come after jquery script-->
+
+
+<p>Hello welcome to jquery class</p>
+<p class="second">javascript if fun</p>
+<p>lets build amazing websites</p>
+
+<button id="btn-hide">Hide</button><br>
+<!-- <script type="text/javascript">
+    $(document).ready(function () {
+        $("#btn-hide").click(function () {
+            $(".second").hide();
+    });
+});
+</script> -->
+
+
+
+
+<br>
+
+<!-- Form events-->
+ <form id="myForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    <div id="result"></div>
+</body>
+</html>
