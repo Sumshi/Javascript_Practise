@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ebcfcf;
+    text-align: center;
+}
+
+.calendar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.month {
+    width: calc(33.33% - 10px);
+    margin: 5px;
+    padding: 20px;
+    background-color: #3498db;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Define different background colors for each month */
+#january {
+    background-color: #3498db;
+}
+
+#february {
+    background-color: #e74c3c;
+}
+
+#march {
+    background-color: #2ecc71;
+}
+
+#april {
+    background-color: #f1c40f;
+}
+
+#may {
+    background-color: #9b59b6;
+}
+
+#june {
+    background-color: #e67e22;
+}
+
+#july {
+    background-color: #1abc9c;
+}
+
+#august {
+    background-color: #e74c3c;
+}
+
+#september {
+    background-color: #3498db;
+}
+
+#october {
+    background-color: #2ecc71;
+}
+
+#november {
+    background-color: #9b59b6;
+}
+
+#december {
+    background-color: #e67e22;
+}
